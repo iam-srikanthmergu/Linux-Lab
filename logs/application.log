@@ -27,3 +27,30 @@
 2026-07-01 06:22:33,999 | INFO | Home page accessed
 2026-07-01 06:22:34,001 | INFO | 127.0.0.1 - - [01/Jul/2026 06:22:34] "GET / HTTP/1.0" 200 -
 2026-07-01 06:22:35,289 | INFO | 127.0.0.1 - - [01/Jul/2026 06:22:35] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
+2026-07-01 07:13:40,079 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.84.130:5000
+2026-07-01 07:13:40,080 | INFO | [33mPress CTRL+C to quit[0m
+2026-07-01 07:13:44,800 | INFO | Home page accessed
+2026-07-01 07:13:44,802 | INFO | 127.0.0.1 - - [01/Jul/2026 07:13:44] "GET / HTTP/1.0" 200 -
+2026-07-01 07:14:30,853 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.84.130:5000
+2026-07-01 07:14:30,854 | INFO | [33mPress CTRL+C to quit[0m
+2026-07-01 07:14:34,850 | INFO | Health Check
+2026-07-01 07:14:34,852 | INFO | 127.0.0.1 - - [01/Jul/2026 07:14:34] "GET /health HTTP/1.1" 200 -
+2026-07-01 07:14:38,394 | WARNING | Slow endpoint called
+2026-07-01 07:14:40,741 | INFO | Home page accessed
+2026-07-01 07:14:40,743 | INFO | 127.0.0.1 - - [01/Jul/2026 07:14:40] "GET / HTTP/1.1" 200 -
+2026-07-01 07:14:46,759 | INFO | Home page accessed
+2026-07-01 07:14:46,761 | INFO | 127.0.0.1 - - [01/Jul/2026 07:14:46] "GET / HTTP/1.0" 200 -
+2026-07-01 07:14:48,395 | INFO | 127.0.0.1 - - [01/Jul/2026 07:14:48] "GET /slow HTTP/1.1" 200 -
+2026-07-01 07:16:24,671 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.84.130:5000
+2026-07-01 07:16:24,672 | INFO | [33mPress CTRL+C to quit[0m
+2026-07-01 07:16:28,443 | INFO | Home page accessed
+2026-07-01 07:16:28,447 | INFO | 127.0.0.1 - - [01/Jul/2026 07:16:28] "GET / HTTP/1.0" 200 -
