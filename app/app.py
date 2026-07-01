@@ -2,7 +2,6 @@ from flask import Flask
 import logging
 import os
 import time
-from datetime import datetime
 
 app = Flask(__name__)
 
@@ -19,10 +18,28 @@ logging.basicConfig(
 @app.route("/")
 def home():
     logging.info("Home page accessed")
-    return f"""
+    return """
     <h1>Linux Production Demo Application</h1>
     <h3>Status : Running ✅</h3>
-    <p>Time : {datetime.now()}</p>
+
+    <p>
+        Welcome to the Linux Production Lab.
+    </p>
+
+    <p>
+        Created by <strong>Srikanth Mergu</strong> for learning
+        Linux Administration, DevOps, and real-time production troubleshooting.
+    </p>
+
+    <hr>
+
+    <h4>Available Endpoints</h4>
+
+    <ul>
+        <li>/health</li>
+        <li>/slow</li>
+        <li>/error</li>
+    </ul>
     """
 
 @app.route("/health")
@@ -30,8 +47,7 @@ def health():
     logging.info("Health Check")
     return {
         "status": "UP",
-        "application": "Linux Demo",
-        "time": str(datetime.now())
+        "application": "Linux Demo"
     }
 
 @app.route("/slow")
