@@ -1,0 +1,29 @@
+2026-07-01 06:08:50,542 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.84.130:5000
+2026-07-01 06:08:50,544 | INFO | [33mPress CTRL+C to quit[0m
+2026-07-01 06:09:15,321 | INFO | Home page accessed
+2026-07-01 06:09:15,324 | INFO | 127.0.0.1 - - [01/Jul/2026 06:09:15] "GET / HTTP/1.1" 200 -
+2026-07-01 06:09:17,062 | INFO | 127.0.0.1 - - [01/Jul/2026 06:09:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-01 06:09:35,552 | INFO | Health Check
+2026-07-01 06:09:35,562 | INFO | 127.0.0.1 - - [01/Jul/2026 06:09:35] "GET /health HTTP/1.1" 200 -
+2026-07-01 06:09:44,904 | WARNING | Slow endpoint called
+2026-07-01 06:09:54,913 | INFO | 127.0.0.1 - - [01/Jul/2026 06:09:54] "GET /slow HTTP/1.1" 200 -
+2026-07-01 06:10:00,538 | ERROR | Application Error Generated
+2026-07-01 06:10:00,548 | INFO | 127.0.0.1 - - [01/Jul/2026 06:10:00] "GET /error HTTP/1.1" 200 -
+2026-07-01 06:13:16,247 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.84.130:5000
+2026-07-01 06:13:16,248 | INFO | [33mPress CTRL+C to quit[0m
+2026-07-01 06:13:18,821 | INFO | Home page accessed
+2026-07-01 06:13:18,825 | INFO | 127.0.0.1 - - [01/Jul/2026 06:13:18] "GET / HTTP/1.1" 200 -
+2026-07-01 06:22:19,751 | INFO | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.84.130:5000
+2026-07-01 06:22:19,752 | INFO | [33mPress CTRL+C to quit[0m
+2026-07-01 06:22:33,999 | INFO | Home page accessed
+2026-07-01 06:22:34,001 | INFO | 127.0.0.1 - - [01/Jul/2026 06:22:34] "GET / HTTP/1.0" 200 -
+2026-07-01 06:22:35,289 | INFO | 127.0.0.1 - - [01/Jul/2026 06:22:35] "[33mGET /favicon.ico HTTP/1.0[0m" 404 -
