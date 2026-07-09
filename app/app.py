@@ -23,7 +23,7 @@ def home():
     <h3>Status : Running ✅</h3>
 
     <p>
-        Welcome to the Feature Lab.
+        Welcome to the Demo Lab.
     </p>
 
     <p>
