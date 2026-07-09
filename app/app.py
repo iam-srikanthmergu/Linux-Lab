@@ -24,7 +24,7 @@ def home():
 
     <p>
 
-        Welcome to the linux Lab.
+        Welcome to the main Lab.
 
 
     </p>
